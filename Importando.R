@@ -39,5 +39,5 @@ censo2 <- censo2 %>%
 
 #%% salvando csv
 
-write.csv(censo2, "C:/Users/izabe/Desktop/Github/Censo_1872/Censo_1872_dados_tidy")
+write.csv(censo2, "C:/Users/izabe/Desktop/Github/Censo_1872/Censo_1872_dados_tidy.csv")
 
