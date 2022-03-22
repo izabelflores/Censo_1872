@@ -45,7 +45,7 @@ censo2 <- censo2 %>%
 censo2 <- censo2 %>% arrange(PrimeiroDeProvincia, 
                              PrimeiroDeMunicipio)
 
-#%% salvando csv
+#%% Salvando csv
 
 write.csv2(censo2, "C:/Users/izabe/Desktop/Github/Censo_1872/Censo_1872_dados_tidy_versao2.csv")
 
