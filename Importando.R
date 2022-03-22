@@ -12,7 +12,7 @@ censo <- sqlFetch(con,'T8c Consulta_municipios')
 # Manipulacao
 
 
-censo2 <- df %>% 
+censo2 <- censo %>% 
   pivot_longer(`SomaDeH_LIVRES`:`SomaDeSOMA_G`,
                "Sexo_Condicao")
 
@@ -47,5 +47,5 @@ censo2 <- censo2 %>% arrange(PrimeiroDeProvincia,
 
 #%% Salvando csv
 
-write.csv2(censo2, "C:/Users/izabe/Desktop/Github/Censo_1872/Censo_1872_dados_tidy_versao2.csv")
+write.csv2(censo2, "Censo_1872_dados_tidy_versao2.csv")
 
