@@ -1,5 +1,5 @@
 
-#%% Censo de 1872 por municipio
+#%% Censo de 1872 por municipio 
 
 library(tidyverse)
 library(RODBC)
